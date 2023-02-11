@@ -1,0 +1,374 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item{
+
+}
+
+.nav-item a{
+  color: #204f87;
+  font-weight: 600;
+}
+
+.banner{
+  position: relative;
+background-image: url(../images/lawyer_hero.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 91vh;
+}
+
+.banner h1{
+text-align: center;
+font-size: 82px;
+color: #fff;
+font-weight: 600;
+}
+
+.banner_icon{
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+top: 85%;
+
+}
+
+.banner_icon i{
+ color: white;
+ font-size: 25px;
+}
+
+.hg{
+  min-height: 91vh;
+  align-items: center;
+}
+
+.who_ew_are{
+  margin-top: 90px;
+  padding-bottom: 150px;
+}
+
+.who_we_are_content{
+padding: 90px 0;
+}
+
+.who_we_are_content span{
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #f1592a;
+  margin-bottom: 15px;
+}
+
+.who_ew_are h1{
+  color: #1f4f87;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.who_ew_are p{
+color: #82827f;
+font-size: 16px;
+}
+
+.who_we_are_images{
+  text-align: end;
+}
+
+.what-we-do{
+background-color: #f7f8f8;
+padding: 55px 0;
+background-image: url(../images/img-bg-6.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: 75%;
+padding-bottom: 80px;
+}
+
+
+.what-we-do span{
+display: block;
+width: 70px;
+height: 3px;
+background: #f15528;
+margin: auto;
+}
+
+.what-we-do h1{
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+color: #28377e;
+margin: 20px 0;
+margin-bottom: 66px;
+}
+
+.items{
+position: relative;
+}
+
+.items img{
+ width: 100%;
+}
+
+.items h5{
+position: absolute;
+left: 50%;
+top: 70%;
+transform: translate(-50%, -50%);
+color: #fff;
+transition: .5s all ease-in-out;
+opacity: 0;
+}
+
+.items i{
+position: absolute;
+left: 30%;
+top: 80%;
+transform: translate(-50%, -80%);
+color: #fff;
+opacity: 0;
+transition: .5s all ease-in-out;
+
+
+}
+
+.items::before{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+ 
+opacity: 0;
+transition: .5s all ease-in-out;
+}
+
+.items:hover::before{
+ opacity: 1;
+}
+
+.items:hover h5{
+  top: 50%;
+  opacity: 1; 
+}
+
+.items:hover i{
+left: 50%;
+opacity: 1;
+}
+
+
+.attorneys{
+
+position: relative;
+background-image: url(../images/img-5.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 70px 0;
+
+}
+
+.attorneys span{
+  margin-top: 100px;
+
+display: block;
+width: 50px;
+height: 2px;
+background: #ec5e2b;
+}
+.attorneys h1{
+color: #fff;
+padding: 20px 0;
+}
+.attorneys p{
+color: #fff;
+font-size: 15px;
+margin-bottom: 40px;
+}
+
+.attorneys a{
+text-transform: uppercase;
+color: #f16a2f;
+text-decoration: none;
+}
+
+
+.image_bg{
+   position: relative;
+}
+
+.image_bg img{
+  width: 100%;
+}
+
+.image_bg::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+ 
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+100 */
+ background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+  
+ opacity: 0;
+ transition: .5s all ease-in-out;
+}
+
+.image_bg:hover::before{
+  opacity: 1;
+}
+
+.attorneys h2{
+font-size: 22px;
+position: absolute;
+left: 20px;
+bottom: 20px;
+color: #fff;
+}
+
+
+
+.language{
+   padding: 90px;
+}
+
+.language span{
+display: block;
+width: 70px;
+height: 3px;
+background: #f1602b;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.language h1{
+  text-align: center ;
+  color: #28377e;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.lng{
+
+}
+
+.lng h1{font-size: 30px;margin-bottom: 20px;text-align: start;}
+
+.lng p{
+color: #7d7d88;
+}
+
+.lng a{
+text-decoration: none;
+font-size: 16px;
+color: #f2672e;
+text-transform: uppercase;
+}
+
+
+.contract{
+   background-color: #28377e;
+   padding: 60px 0;
+}
+
+.contract span{
+display: block;
+width: 70px;
+height: 3px;
+background: #ed632b;
+margin: auto;
+margin-bottom: 10px;
+}
+
+.contract h1{
+color: #fff;
+font-weight: 700;
+text-align: center;
+}
+
+.contract form input{
+color: white;
+background: transparent;
+border: none;
+border-radius: inherit;
+border-bottom: 1px solid #4759a7;
+}
+
+.contract form textarea{
+color: white;
+background: transparent;
+border: none;
+border-bottom: 1px solid #4759a7;
+border-radius: inherit;
+}
+
+.contract form a{
+  color: white;
+  width: 100px;
+  display: block;
+  margin: auto;
+  border: 1px solid #f2622c;
+  border-radius: 5px;
+  background: #f2622c;
+}
+
+.contract form input::placeholder, .contract form textarea::placeholder{
+  color: white;
+}
+
+.contract form input:focus, .contract form textarea:focus{
+  background-color: transparent;
+  box-shadow: none;
+  border-color:  #ec5e2b;
+  color: white;
+}
+
+footer{
+background-color: #0c1234;
+padding: 30px 0;
+text-align: center;
+}
+
+footer p{
+color: #bfb7b7;
+font-size: 13px;
+font-weight: 100;
+padding-top: 15px;
+}
+
+footer a{
+line-height: 45px;
+align-items: center;
+margin-right: 20px;
+font-size: 25px;
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+
+
